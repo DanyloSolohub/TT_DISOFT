@@ -25,3 +25,12 @@ class NotificationPagination(PageNumberPagination):
             'results': data
         })
 '''
+
+
+"""
+        # for i in range(1, len(data)):
+        #     for j in range(len(data[0]['full_relations'])):
+        #         if data[0]['full_relations'][j]['has'] != data[i]['full_relations'][j]['has']:
+        #             data[0]['full_relations'][j]['has'] = True
+        # return Response(data=data[0])
+"""
